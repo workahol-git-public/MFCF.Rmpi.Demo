@@ -1,0 +1,13 @@
+# MFCF.Rmpi.Demo
+An Rmpi demo for MFCF 2015 Halloween presentation.
+
+# Files description:
+
+RCode/MonteCarlo_*.*.R - is a timing benchmark script using two methods to run a simple Monte Carlo integration.
+
+Presentation/Rmpi_Presentation.pdf - are the slides to the MFCF 2015 Halloween presentation.
+
+# Instructions:
+
+1. Copy MonteCarlo_*.*.R into a directory.
+2. Either start R in that directory and use source(...) to call, or run R CMD BATCH ./MonteCarlo_*.*.R, where *.* is the version number of the file.
